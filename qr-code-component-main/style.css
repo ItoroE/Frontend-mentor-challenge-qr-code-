@@ -1,0 +1,45 @@
+
+body{
+    background-color: hsl(218, 60%, 89%);
+}
+.full-card{
+    display: grid;
+    background-color: white;
+    grid-template-columns:1fr;
+    border-radius:12px;
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    width: 300px;
+    /*moves element left and up by half its own width and height*/
+    transform: translate(-50%, -50%);
+    height: auto;
+    /*adds space between element and box all around*/
+    padding: 15px;
+    place-items: center;
+    box-shadow: 0px 30px 20px -10px  hsla(195, 3%, 72%, 0.5);
+
+}
+
+.qr-code{
+    border-radius: 10px;
+    width:100%;
+    height:auto;
+}
+
+.card header h1{
+    font-size: 25px;
+    text-align: center;
+    font: weight 700px;
+    justify-content: center;
+    font-family: "Outfit";
+}
+
+.card p{
+    font-size: 18px;
+    font: weight 400px;
+    text-align: center;
+    color:rgb(143, 140, 140);
+    justify-content: center;
+    font-family: "Outfit",
+}
